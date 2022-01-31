@@ -75,7 +75,7 @@ function App() {
       handelAdditionalButtonOptions({ addStyle: styles.stop, name: "stop" });
     }
     if (additionalButtonOptions.name === "stop") {
-      STOPstopwatch();
+      //STOPstopwatch();
       handleReset();
       handelAdditionalButtonOptions({ addStyle: styles.start, name: "start" });
     }
@@ -138,7 +138,7 @@ function App() {
         className={styles.btn}
         onClick={handleWait}
       >
-        wait
+        stop
       </button>
       <button
         type="button"
